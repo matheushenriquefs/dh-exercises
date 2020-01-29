@@ -46,10 +46,20 @@ function adicionarCao(arrayObj, nome, idade, raca, vacinado, servicos){
 
 adicionarCao(caes, "Lanterna Verde", 8, "Pitbull", true, ["banho", "tosa"]);
 
-function listarCaesVacinados(arrayObj){
-    for(let i = 0; i < arrayObj.length; i++){
-        if(arrayObj[i].vacinado){
-            console.log(arrayObj[i].nome + " é vacinado(a)");
-        }
+// function listarCaesVacinados(arrayObj){
+//     for(let i = 0; i < arrayObj.length; i++){
+//         if(arrayObj[i].vacinado){
+//             console.log(arrayObj[i].nome + " é vacinado(a)");
+//         }
+//     }
+// }
+
+function listarNomeDosCaes(arrayObj){
+    let i = 0;
+    while(i < arrayObj.length){
+        console.log("nome:" + arrayObj[i].nome + "\n");
+        i++;
     }
 }
+
+listarNomeDosCaes(caes);
