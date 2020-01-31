@@ -19,7 +19,6 @@ const servVacinar = pets.map(pet =>{
     console.log("Vacinando: " + pet.nome);
     if(pet.vacinado !== true){
         pet.vacinado = true;
-    }else{
         pet.servicos.push("vacina");
     }
     return pet;
