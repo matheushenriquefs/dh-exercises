@@ -1,0 +1,21 @@
+"caes": [{
+    "nome": "Malu",
+    "idade": 3,
+    "raca": "Shih-Tzu",
+    "vacinado": true,
+    "servicos": ["banho", "tosa"]
+},
+{
+    "nome": "Batman",
+    "idade": 5,
+    "raca": "Doberman",
+    "vacinado": true,
+    "servicos": ["banho", "tosa"]
+},
+{
+    "nome": "SuperMan",
+    "idade": 4,
+    "raca": "Pastor Alemão",
+    "vacinado": false,
+    "servicos": ["banho", "tosa"]
+}]
