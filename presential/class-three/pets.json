@@ -1,0 +1,24 @@
+ [{
+    "nome": "Malu",
+    "nascimento": "2017-03-15T12:00:20-03:00",
+    "raca": "Shih-Tzu",
+    "vacinado": true,
+    "servicos": ["banho", "tosa"],
+    "castrado": false
+},
+{
+    "nome": "Batman",
+    "nascimento": "2015-08-07T21:45:10-03:00",
+    "raca": "Doberman",
+    "vacinado": true,
+    "servicos": ["banho", "tosa"],
+    "castrado": true
+},
+{
+    "nome": "SuperMan",
+    "nascimento": "2016-04-02T18:12:09-03:00",
+    "raca": "Pastor Alemão",
+    "vacinado": false,
+    "servicos": ["banho", "tosa"],
+    "castrado": false
+}]
