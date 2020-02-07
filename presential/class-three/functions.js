@@ -21,14 +21,15 @@ const servTosar = pets.map(pet => {
 
 // aplicando a funcao serv vacinar a todos os pets
 
-const servVacinar = pets.map(pet =>{
+const servVacinar = pet =>{
     console.log("Vacinando: " + pet.nome);
-    // if(pet.vacinado !== true){
-    //     pet.vacinado = true;
-    //     pet.servicos.push("vacina");
-    // }
-    pet.vacinado = true;
+    if(!pet.vacinado){
+        pet.vacinado = true;
+        pet.servicos.push("vacina");
+    }
     return pet;
-});
+};
 
-console.log(servVacinar);
+pets.map(servVacinar);
+
+console.log(pets);
