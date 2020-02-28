@@ -1,3 +1,6 @@
+// Queremos que você crie uma rota que utilize o método get e aponte para "/perfil". Deve retornar a variável boasVindas que lhe 
+// entregaremos declarada.
+
 const express = require('express');
 const app = express();
 
