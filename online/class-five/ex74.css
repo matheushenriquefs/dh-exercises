@@ -1,0 +1,25 @@
+/* Seu trabalho  neste caso será dar um pouco de cor ao nosso site. Deixamos uma lista com las características que queremos que tenha.
+
+    O <body> deve conter uma imagen de fundo que ocupe todo o tamanho da página. O link da imagem é o seguinte: 
+    https://images3.alphacoders.com/621/621682.jpg
+    O <h1> deve ter um fundo de cor preto (black) com uma opacidade de 0.8 e que a fonte seja da cor #f4e033
+    O <h2> deve ter um fundo  de cor laranja, que a fonte seja de cor branca (white) e que a caixa completa (fundo e texto) 
+    tenha uma opacidade de 0.4. */
+
+body {
+    background-image: url('https://images3.alphacoders.com/621/621682.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: black;
+    color: #f4e033;
+    opacity: 0.8;
+}
+
+h2 {
+    background-color: orange;
+    color: white;
+    opacity: 0.4;
+}
