@@ -1,0 +1,6 @@
+/*E a primeira coisa é modificar o estilo de uma estrutura HTML já definida usando CSS. Queremos que você escreva no arquivo style.css a 
+seguinte regra: Todas tags <p> com a regra color: red*/
+
+p{
+    color: red;
+}
