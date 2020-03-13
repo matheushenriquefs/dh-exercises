@@ -1,0 +1,13 @@
+/* Um seletor que altere todas as tags <h3> com a regra color: blue;
+Um seletor que afete as etiquetas com a classe negrito com a regra font-weight: bold;
+Um seletor que altere a tag que contenha o id gigante com a regra font-size: 40px; */
+
+h3{
+    color: blue;
+}
+.negrito{
+    font-weight: bold;
+}
+#gigante{
+    font-size: 40px;
+}
