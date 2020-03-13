@@ -1,0 +1,17 @@
+/* O seu trabalho será aplicar as regras necessárias ao seletor que te demos no arquivo style.css, para que o texto tenha as seguintes características:
+
+    Que tenha tipografia Arial
+    Que tenha 20px de tamanho de letra
+    Que esteja em negrito
+    Que esteja itálico
+    Que esteja sublinhado
+    Que esteja centralizado */
+
+p{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
