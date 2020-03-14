@@ -1,0 +1,24 @@
+<!--Vamos criar um formulário para perguntar se o usuário possui ou não um bicho de estimação.
+
+    Para tanto, dentro do formulário que foi fornecido:
+
+    cira um  <label> com o texto "Você tem um pet?"
+    adicione dois radio-button para dar a opção "Sim" e a opção "Não"
+    configure o atributo name="pet" nos dois <input> para que entenda que estamos falando do mesmo campo.
+
+    Para poder verificar logo qual foi a opção escolhida pelo usuário não se esqueça de  adicionar o atributo value em cada <input>. 
+    Para a opção "Sim" o valor deverá ser la letra s, e para a opção "Não" a letra n.-->
+
+<html>
+    <head>
+      <title>Formularios</title>
+    </head>
+    <body>
+      <form action="resultado.html" method="POST">
+        <label for="">Você tem um pet?</label>
+        <span>Sim</span><input type="radio" name="pet" value="s">
+        <span>Não</span><input type="radio" name="pet" value="n">
+        <input type="submit" value="Enviar">
+      </form>
+    </body>
+</html>
