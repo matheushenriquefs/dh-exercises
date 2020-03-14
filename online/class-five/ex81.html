@@ -1,0 +1,25 @@
+<!--Vamos criar um formulário para saber os hobbies do usuário.
+
+    Para tal pedimos que dentro do formulário cedido:
+
+    crie um <label> com o texto "Quais são seus hobbies?"
+    crie 3 tags <input> do tipo checkbox com as opções: Pescar, Correr e Yoga. 
+    configure o atributo name="hobby" a todos os <input> para que fique claro que estamos falando do mesmo campo
+
+    Por último, não se esqueça de adicionar o atributo value em cada <input> para poder checar de forma mais eficiente as repostas dos 
+    usuários.-->
+
+<html>
+    <head>
+      <title>Formularios</title>
+    </head>
+    <body>
+      <form action="resultado.html" method="POST">
+          <label for="">Quais são seus hobbies?</label>
+          <input type="checkbox" name="hobby" value="pescar">Pescar
+          <input type="checkbox" name="hobby" value="correr">Correr
+          <input type="checkbox" name="hobby" value="yoga">Yoga
+          <input type="submit" value="Enviar">
+      </form>
+    </body>
+</html>
