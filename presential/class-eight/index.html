@@ -1,0 +1,101 @@
+<!-- O atribulo lang comunica ao navegador a linguagem padrâo do sistema -->
+<html lang="pt-br">
+    <head>
+        <title>Pesqueiro Notredame</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="localizacao.html"> Localização </a></li>
+                <li><a href="contato.html"> Contato </a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <img id="bigbanner" src="img/pesqueiro.jpg" alt="Imagem de um Pesqueiro" title="Imagem de um Pesqueiro">
+        </header>
+
+        <main>
+            <!-- <section class="importante">
+                <div class="container">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quae corporis assumenda? Magnam nam placeat 
+                        dicta, voluptates error temporibus earum assumenda corrupti provident in iste possimus est optio. Deleniti,
+                        ut? 
+                    </p>
+                    <h2> Nossos Diferenciais </h2>
+                </div>
+                <hr>
+                <div class="container">
+                    <ul>
+                        <li>Comida Típica</li>
+                        <li>Retira e Entrega</li>
+                        <li>Ambiente Familiar</li>
+                        <li class ="importante">Atendimento de Qualidade</li>
+                        <li class ="importante">O Melhor do Mercado</li>
+                    </ul>
+                </div>
+            </section> -->
+            <form method="GET" action="">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome">
+                </div>
+                <div>
+                    <label for="sobre-nome">Sobre nome</label>
+                    <input id="sobre-nome" type="text" name="sobre-nome">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" name="senha">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div>
+                    <label for="numero">Numero</label>
+                    <input id="numero" type="number" name="numero" min="0" max="10" step="0.5">
+                </div>
+                <div>
+                    <label for="telefone">Tel</label>
+                    <input id="telefone" type="phone" name="telefone">
+                </div>
+                <div>
+                    Gênero:
+                    <label for="masculino">Masculino</label>
+                    <input id="masculino" type="radio" name="genero" value="m">
+                    <label for="feminino">Feminino</label>
+                    <input id="feminino" type="radio" name="genero" value="f">
+                </div>
+                <div>
+                    <label for="nacio">Masculino</label>
+                    <select id="nacio" name="nacio">
+                        <option value="brasileira">Brasileira</option>
+                        <option value="americana">Americana</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="aceite">Termos</label>
+                    <input id="aceite" type="checkbox" name="aceite">
+                </div>
+                <div>
+                    <label for="arquivo">Arquivo</label>
+                    <input id="arquivo" type="file" name="arquivo">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <footer class="container">
+            <section class="br-1 pr-1">
+                <p><strong>Endereço:</strong><i> Av. Dr. Cardoso de Melo, 90 - Vila Olímpia, São Paulo - SP</i></p>
+            </section>
+            <section class="pl-1">
+                <p><strong>Telefone:</strong><i> (11) 3500-9839</i></p>
+                <p><strong>E-mail:</strong><i> contato@br.digitalhouse.com</i></p>
+            </section>
+        </footer>
+    </body>
+</html>
