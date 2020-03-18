@@ -1,0 +1,35 @@
+<!--Neste exercício contamos com uma pequena estrutura HTML definida com duas tags <div>.
+
+Adicione a estas caixas propriedades de css que só afetem os elementos da tag <div>. As características que as tags deverão ter são os 
+seguintes:
+
+    Largura fixa de 100px
+    Borda sólida vermelha de 1px
+    Padding de 5px
+    Margem de 10px
+
+Por último, a largura final de cada <div> deve ser de 100px incluindo a borda. Você se lembra com qual propriedade podemos configurar 
+isso?-->
+
+<html>
+  <head>
+    <title>Box Model</title>
+    <style>
+        div {
+            width: 100px;
+            border: 1px solid red;
+            padding: 5px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+        Caixa 1
+    </div>
+    <div>
+        Caixa 2
+    </div>
+  </body>
+</html>
