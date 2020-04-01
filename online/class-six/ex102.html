@@ -1,0 +1,35 @@
+<!--Nos pedem para fazer um protótipo de site para a CBF. Até agora, temos uma barra de navegação e um logo no index.html, mas sem muito design, e queremos estiliza-la para que todos os elementos estejam em uma mesma linha horizontal.-->
+
+<!--Para isso te pedimos que a <div> com classe "ligacoes" e a <div> com classe "nav-bar" converta-os em contenedores flex. Mas, queremos que, tanto a <img> como a <ul> estejam distribuídas de maneira uniforme no comprimento da linha.-->
+
+<html>
+    <head>
+      <title>Flexbox</title>
+      <style>
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-around
+        }
+
+        .ligacoes {
+            display: flex;
+        }
+
+      </style>
+    </head>
+    <body>
+      <div class="nav-bar">
+        <img src="https://i.imgur.comDCo22tQ.png">
+  
+        <ul class="ligacoes">
+            <li><a href="">Equipes |</a></li>
+            <li><a href="">Fichas |</a></li>
+            <li><a href="">Árbitros |</a></li>
+            <li><a href="">Diretores Técnicos |<a></li>
+            <li><a href="">Calendário |</a></li>
+        </ul>
+      </div>
+    </body>
+</html>
+
