@@ -1,0 +1,23 @@
+<!--Queremos que, usando a regra order, posicione a prancha de como o primeiro elemento. Qual valor devo atribuir a prancha?-->
+
+<html>
+  <head>
+    <title>Flexbox</title>
+    <style>
+        .surf-no-mar{
+            display: flex;
+            width: 100%;
+        }
+        .prancha{
+            order: -1;
+        }
+    </style>
+  </head>
+  <body>
+     <div class="surf-no-mar">
+        <img src="https://i.imgur.com/RGqQuPS.png">
+        <img src="https://i.imgur.com/sf76emp.png"> 
+        <img class="prancha" src="https://i.imgur.com/k4qubEK.png">
+    </div>
+  </body>
+</html>
