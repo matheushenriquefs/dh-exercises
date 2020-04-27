@@ -1,0 +1,15 @@
+<!--Ao carregar arquivos através do formulário, não apenas precisamos configurar nosso código no Node, mas também devemos adicionar uma configuração extra na tag form.
+
+
+// Dado o seguinte formulário, adicione o atributo enctype com o valor correspondente para permitir o envio de arquivos.-->
+
+<html>
+  <head>
+    <title>Upload de Imagens</title>
+  </head>
+  <body>
+    <form action="upload" method="POST" enctype="multipart/form-data">
+        <input type="file">
+    </form>
+  </body>
+</html>
